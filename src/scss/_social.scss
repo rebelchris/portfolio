@@ -1,0 +1,6 @@
+.social {
+  &-icon {
+    @include block;
+    display: inline-block;
+  }
+}

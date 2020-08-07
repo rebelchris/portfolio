@@ -1,0 +1,19 @@
+.timeline {
+  &-item {
+    margin-bottom: 20px;
+    &--checkbox {
+      display: flex;
+      align-items: center;
+
+      svg {
+        width: 16px;
+        height: 16px;
+        margin-right: 16px;
+        fill: #fca311;
+      }
+    }
+    &--paragraph {
+      margin-left: 32px;
+    }
+  }
+}

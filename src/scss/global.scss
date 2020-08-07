@@ -1,0 +1,68 @@
+html {
+  background: #14213d;
+  color: #fff;
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+}
+
+@import "mixins";
+@import "tooltip";
+@import "header";
+@import "portfolio";
+@import "timeline";
+@import "review";
+@import "skills";
+@import "social";
+@import "stars";
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+main {
+  width: 700px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+section {
+  margin-bottom: 100px;
+}
+
+.sub-title {
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+
+.quick-nav {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-top: 48px;
+  li {
+    @include block;
+    margin-right: 16px;
+    a {
+      display: inline-block;
+      text-decoration: none;
+      color: #fca311;
+    }
+  }
+}
+
+.link-inline {
+  text-decoration: none;
+  border-bottom: 1px solid #fca311;
+  color: inherit;
+}

@@ -1,0 +1,21 @@
+*.log
+npm-debug.*
+*.scssc
+*.log
+*.swp
+.DS_Store
+.sass-cache
+node_modules
+dist 
+/node_modules
+
+# Specifics
+
+# Hide design tokens
+src/scss/_tokens.scss
+
+# Hide compiled CSS
+src/_includes/assets/*
+
+# Local Netlify folder
+.netlify

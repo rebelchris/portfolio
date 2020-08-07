@@ -1,0 +1,16 @@
+.skills {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  @media (min-width: 600px) {
+    grid-template-columns: repeat(8, 1fr);
+  }
+  @media (min-width: 700px) {
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  &-item {
+    @include block;
+  }
+  svg {
+  }
+}
