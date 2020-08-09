@@ -1,6 +1,6 @@
 .star-wrapper {
   width: 100vw;
-  height: 50vh;
+  height: 75vh;
   position: absolute;
   overflow: hidden;
   z-index: -1;
@@ -14,11 +14,7 @@
     position: absolute;
     bottom: 0;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#14213d+0,14213d+100&0+0,1+100 */
-    background: -moz-linear-gradient(
-      top,
-      rgba(20, 33, 61, 0) 0%,
-      rgba(20, 33, 61, 1) 100%
-    ); /* FF3.6-15 */
+    background: -moz-linear-gradient(top, rgba(20, 33, 61, 0) 0%, rgba(20, 33, 61, 1) 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(
       top,
       rgba(20, 33, 61, 0) 0%,
