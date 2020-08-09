@@ -19,10 +19,13 @@ body {
   margin: 0;
   padding: 0;
   position: relative;
+  @media (max-width: 700px) {
+    padding: 0 24px;
+  }
 }
 main {
-  width: 700px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 700px;
   margin: 0 auto;
 }
 section {
@@ -50,6 +53,8 @@ h3 {
   padding: 0;
   margin: 0;
   margin-top: 48px;
+  flex-flow: row wrap;
+
   li {
     @include block;
     margin-right: 16px;
