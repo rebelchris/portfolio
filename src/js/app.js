@@ -24,7 +24,7 @@ function nextSlide(n) {
 
 setInterval(function() {
   nextSlide(slideIndex + 1);
-}, 6000);
+}, 10000);
 
 var header = document.getElementById("header");
 window.onscroll = function() {
