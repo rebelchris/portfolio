@@ -1,0 +1,26 @@
+.contact {
+  &-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    @media (max-width: 700px) {
+      flex-direction: column;
+    }
+    h2 {
+      margin-top: 0;
+    }
+    &--right {
+      margin-left: 48px;
+      padding: 10px;
+      background: #efefef;
+      margin: 5px;
+      @media (max-width: 700px) {
+        margin-left: 0px;
+        margin-top: 48px;
+      }
+      img {
+        display: block;
+      }
+    }
+  }
+}
