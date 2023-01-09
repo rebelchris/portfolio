@@ -4,7 +4,7 @@
   "description": "A simple Eleventy starter kit to help you have a blog of your own",
   "main": "index.js",
   "dependencies": {
-    "@11ty/eleventy": "^0.8.3",
+    "@11ty/eleventy": "^1.0.2",
     "@tbranyen/jsdom": "^13.0.0",
     "concurrently": "^4.1.0",
     "dotenv": "^8.2.0",
